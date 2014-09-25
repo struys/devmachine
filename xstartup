@@ -1,0 +1,9 @@
+#!/bin/sh
+vncconfig -iconic &
+
+gnome-panel &
+gnome-settings-daemon &
+metacity &
+nautilus --force-desktop --no-default-window &
+gnome-terminal &
+gnome-session &
